@@ -1,0 +1,6 @@
+[General]
+
+Title=RedCons 
+Author=Ken Saunders
+URL=http://www.mouserunner.com/
+License=Creative Commons Attribution 2.5, Attribution Required

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_u" value="name:id;datatype:int,name:username;datatype:string,name:password;datatype:string,name:fn;datatype:string,name:ln;datatype:string,name:mi;datatype:string,name:bday;datatype:string,name:contact;datatype:string,name:address;datatype:string,name:pic;datatype:string,name:subject;datatype:string,name:sy;datatype:string,name:UserType;datatype:string,name:status;datatype:string,name:dateReg;datatype:string" />
+	<infoitem key="UD_my" value="name:id;datatype:int,name:username;datatype:string,name:fn;datatype:string,name:ln;datatype:string,name:mi;datatype:string,name:contact;datatype:string,name:email;datatype:string,name:adviser;datatype:string,name:teacher;datatype:string,name:picture;datatype:string,name:sy;datatype:string" />
+	<infoitem key="UD_QzBar" value="name:Qz;datatype:int,name:username;datatype:string" />
+	<infoitem key="UD_qz" value="name:id;datatype:int,name:QzID;datatype:string,name:QzNo;datatype:string,name:username;datatype:string,name:DateIn;datatype:string,name:Teacher;datatype:string,name:sy;datatype:string,name:a;datatype:string,name:itemNo;datatype:string,name:answer;datatype:string,name:A;datatype:real" />
+	<infoitem key="UD_AcrBar" value="name:Act;datatype:int,name:username;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:QzID;datatype:string,name:QzNo;datatype:string,name:username;datatype:string,name:DateIn;datatype:string,name:Teacher;datatype:string,name:sy;datatype:string,name:a;datatype:string,name:itemNo;datatype:string,name:answer;datatype:string" />
+</info>

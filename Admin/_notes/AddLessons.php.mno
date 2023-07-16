@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_u" value="name:id;datatype:int,name:username;datatype:string,name:password;datatype:string,name:fn;datatype:string,name:ln;datatype:string,name:mi;datatype:string,name:bday;datatype:string,name:address;datatype:string,name:contact;datatype:string,name:email;datatype:string,name:pic;datatype:string,name:UserType;datatype:string" />
+	<infoitem key="UD_ut" value="name:id;datatype:int,name:username;datatype:string,name:password;datatype:string,name:fn;datatype:string,name:ln;datatype:string,name:mi;datatype:string,name:bday;datatype:string,name:contact;datatype:string,name:address;datatype:string,name:pic;datatype:string,name:subject;datatype:string,name:sy;datatype:string,name:UserType;datatype:string,name:status;datatype:string,name:dateReg;datatype:string" />
+	<infoitem key="UD_les" value="name:id;datatype:int,name:username;datatype:string,name:teacher;datatype:string,name:title;datatype:string,name:subject;datatype:string,name:file;datatype:string,name:date;datatype:string,name:LesNo;datatype:string" />
+</info>

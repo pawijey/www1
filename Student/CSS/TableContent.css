@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tableQuiz{
+	float:left;
+	margin-left: 2.5%;
+}
+#tableExtra{
+	float:right;
+	margin-right: 2.5%;
+}
+#tableAct{
+	float:right;
+	margin-right:2.5%;
+}
+#tdQuizR, #tdActR{
+	font-family:"Arial Black", Gadget, sans-serif;
+	letter-spacing:1px;
+	font-size:36px;
+}
+#bar{
+	background-color: rgb(0,128,0, 0.5);
+	border-radius: 5px;
+}
+#actCat, #qzCat{
+	background-color: white;
+	font-family: Arial, Gadget, sans-serif;
+	font-weight: bolder;
+	font-size:12px;
+}
+#qzCatRd,#actCatRd{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color: green;
+	font-size: 24px;
+	text-align:justify;
+}
+#ans{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color: green;
+	font-size: 24px;
+	text-align:center;
+}
+#remarks{
+	text-align:center;
+}
+#tdActC, #tdQzC{
+	border:5px solid;
+	border-color:transparent;
+	border-radius: 5px;
+	font-size: 18px;
+}
+#tdQzL{
+	border:5px solid;
+	border-color:transparent;
+	border-radius: 5px;
+	font-size: 24px;
+}
+#tdResult{
+	border:5px solid;
+	border-color:transparent;
+	border-radius: 5px;
+	font-size: 36px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+time{
+	color: #D3D4D5;
+	padding-left: 20px;
+	font-family:fantasy, "Copperplate Gothic Bold";
+	font-size:16px;
+	letter-spacing:1px;
+}
+#tdQT,#tdQzName{
+	padding-left:5%;
+}
+#tdQzName, #qzno{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:24px;
+	font-variant:small-caps;
+}
+#tdQst{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:36px;
+	overflow-wrap: break-word;
+	padding-bottom:24px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align:justify;
+	text-justify:inter-word;
+}
+#name1{
+	font-family:"Arial Black", Gadget, sans-serif;
+	text-align:justify;
+	text-justify:inter-word;
+	font-variant:small-caps;
+	font-size:30px;
+}
+#StudQzName{
+	font-size:36px;
+}
+#DateI, #DateO{
+	font-family:"Arial Black", Gadget, sans-serif;
+	text-align:justify;
+	text-justify:inter-word;
+	font-size:18px;
+}
+
+#Note{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:24px;
+	background-color:yellow;
+	padding: 24px 24px;
+	text-align:justify;
+	text-justify:inter-word;
+	border-radius: 10px;
+	
+
+}
+#tdTitle{
+	background-color: transparent;
+	font-family: Arial, Gadget, sans-serif;
+	font-weight: bolder;
+	padding-bottom:20px;
+}
+#tdVid{
+
+	margin:auto;
+
+}

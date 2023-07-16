@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tdCatLs{
+	background-color: white;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: bolder;
+	border-radius: 5px;
+	text-align:center;
+}
+
+#tdActC, #tdQzC{
+	border:10px solid black;
+	border-color:transparent;
+	border-radius: 5px;
+}
+#tableView td, tr{
+           border-spacing:52px;
+}
+#tdLsR{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	color: green;
+}
+
+#tdLessonR{
+	font-family:"Arial Black", Gadget, sans-serif;
+	letter-spacing:1px;
+	font-size:36px;
+}
+input.button-add {
+    background-image:url(/image/icons/Pinvoke/search.png); /* 16px x 16px */
+    background-color: #F2F4FA; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 1px 1px;  /* equivalent to 'top left' */
+    border: 1px solid gray;           /* assuming we don't want any borders */
+	border-radius: 4px;
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 20px;           /* make this the size of your image */
+    padding-left: 16px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+	margin-bottom: 1%;
+	margin-left: 1%;
+}
+input.button-add:hover {
+	background-color: #B5B6BA;
+}
+input.search-input{
+display:inline-block;
+	border-radius:100px;
+	height: 25px;
+	text-align:center;
+	font-family:"Arial Black", Gadget, sans-serif;
+	margin-left: 5px;
+	margin-bottom:10px;
+}

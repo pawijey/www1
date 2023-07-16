@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+#userImg{
+	float:left;
+	margin-left: 1.4%;
+	position:absolute;
+	z-index: 20;
+	margin-bottom: 50%;
+	border-radius: 10px;
+}
+.divName{
+	display: block;
+	position:relative;
+	width:250px;
+	height:150px;
+	margin-top: 100px;
+	background-color:green;
+	
+	border-radius:50% 20% / 10% 40%;
+	margin-bottom:70px;
+	margin-right:40px;
+}
+.divName p{
+	postion: absolute;
+	padding: 40% 31.5%;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:white;
+	font-weight:bolder;
+	font-size:24px;
+	text-shadow: 1px 2px black;
+	font-variant:small-caps;
+	
+}
+#tdCatUp {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:18px;
+	font-variant:small-caps;
+}
+#tdCatInput input{
+	display:inline-block;
+	border-radius:100px;
+	height: 25px;
+	text-align:center;
+	font-family:"Arial Black", Gadget, sans-serif;
+	margin-left: 5px;
+	margin-bottom:10px;
+}
+#tdCatbutton{
+	background-color:transparent;
+	border: none;
+	cursor: pointer;
+	font-size:24px;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+input:hover[type="submit"]{
+	text-decoration:underline;
+	text-decoration-color: #008000;
+}

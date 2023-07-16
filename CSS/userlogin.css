@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+#loginform p{
+	color: white;
+	text-align:center;
+	font-size:24px;
+	text-shadow: 1px 2px #000;
+}
+#loginform input {
+	margin-left: 30px;
+	margin-bottom:10px;
+}
+#username, #password{
+	display:inline-block;
+	border-radius:100px;
+	height: 25px;
+	text-align:center;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+#button{
+	background-color:transparent;
+	border: none;
+	cursor: pointer;
+	font-size:24px;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+#button:hover{
+	color:white;
+}
+#userIcon{
+	margin-left:6.5%;
+	margin-bottom:10%;
+	display:block;
+	width:100%;
+	height:100%;
+}

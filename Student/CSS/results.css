@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#tdTotalScore, #tdRemarks {
+	
+	background-color: white;
+	font-family: Arial, Gadget, sans-serif;
+	font-weight: bolder;
+}

@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+
+/* CSS Document */
+
+
+
+.LessonText{
+	 margin:auto;
+	 background-color:white;
+	 width: 40%;
+	 min-height: 40%;
+	 display:inline-block;
+	 border-bottom-left-radius: 20%;
+	 border-top-right-radius:20%;
+	 overflow:hidden;
+	 
+}
+/* ---------------------------------- Overlay video --------------------------- */
+#overlay{
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+.LessonText h1{
+	font-variant:small-caps;
+	word-wrap:break-word;
+	width:80%;
+}
+.LessonText h2{
+	color: black;
+  word-wrap: break-word;
+  width:95%;
+  font-size: 16px;
+}
+.LessonText ul{
+	text-align:left;
+}
+.TextInside h2{
+	color: black;
+  word-wrap: break-word;
+  text-align:justify;
+	text-justify:inter-word;
+  width:80%;
+
+}
+.TextInside h3{
+	color: black;
+  word-wrap: break-word;
+  width:95%;
+  font-size: 16px;
+}
+.TextInside ul{
+	color: black;
+  word-wrap: break-word;
+
+  width:95%;
+  font-size: 16px;
+  
+}
+
+
+/*.hide1{
+	display:none;
+}*/
+
+ul.b {
+  list-style-type: square;
+  text-align:left;
+  margin-left: 15%;
+  display:block;
+}
+ol.b {
+  list-style-type: square;
+  text-align:left;
+  margin-left: 15%;
+  display:block;
+}
+#text4{
+	text-align:justify;
+	text-justify:inter-word;
+	width:70%;
+	color: black;
+}
+#listlinks{
+	display:none;
+}
+#listlinks a{
+	padding-left: 20px; 
+
+}
+#listlinks iframe {
+	margin-bottom: 5%;
+}
+#listlinks ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 15%;
+  overflow: hidden;
+}
+#listlinks li {
+	float:left;
+	margin-left:10%;
+}
+
+#listlinks li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#limit {
+	display: block;	
+}
+#lesson1,#lesson2,#lesson3{
+	display:block;
+}

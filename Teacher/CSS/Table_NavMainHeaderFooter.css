@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(/image/BG.png);
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position:absolute;
+	
+	overflow:auto;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+a{
+	background-color:#FDD93D;
+	font-family: "Arial Black", Gadget, sans-serif;
+	display: inline-block;
+	padding: 7px 15px;
+	border-radius: 5px;
+	letter-spacing:2px;
+	font-size:16px;
+}
+#name{
+	color:#FDD93D;
+	margin-left:1%;
+	cursor: default;
+	font-variant:small-caps;
+	font-family: "Arial Black", Gadget, sans-serif;
+	display: inline-block;
+	padding: 7px 15px;
+	border-radius: 5px;
+	letter-spacing:2px;
+	font-size:16px;
+}
+a:visited {
+ color: black;
+ text-decoration:none;
+}
+a:link{
+	text-decoration:none;
+	color: black;
+}
+a:hover{
+	COLOR:WHITE;
+	background-color:#D7C122;
+	box-shadow: 2px 3px black;
+	cursor: pointer;
+}
+a:active {
+	color:RED;
+}
+#NavBar, #tdFooter, #trFooter{
+	border:3px solid #143D04;
+	background-color:#008000;
+}
+#NavBar {
+	height: 55px;
+}
+#logoutbutton{
+	float: right;
+	margin-right:1%;
+	color:red;
+	margin-top:.6%;
+}
+#logoutbutton:hover{
+	color:black;
+	background-color:white;
+	box-shadow: 2px 3px #F00;
+}
+#link{
+	margin-left:1%;
+}
+
+#tdFooter{
+	color:white;
+}
+.welcome{
+	cursor:initial;
+}
+#tableProfile{
+	margin-top: 4%;
+}
+#tdMain{
+	padding-top: 80px;
+	padding-bottom: 10%;
+
+}

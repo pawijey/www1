@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	
+}
+#NavBar, #tdFooter, #trFooter{
+	border:3px solid #143D04;
+	border-radius:5px;
+	background-color:#008000;
+}
+body{
+	background-image:url(/image/BG.png);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:absolute;
+	overflow:auto;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+a {
+	margin-top: .5%;
+	margin-left: 1%;
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 7px 15px;
+  text-decoration: none;
+  background-color:#FDD93D;
+  font-family: "Arial Black", Gadget, sans-serif;
+  display: inline-block;
+  border-radius: 5px;
+  
+}
+#link1:hover {
+	COLOR:white;
+	background-color:#D7C122;
+	box-shadow: 2px 3px black;
+	cursor: pointer;
+}
+
+	/*
+	font-family: "Arial Black", Gadget, sans-serif;
+	display: inline-block;
+	padding: 7px 15px;
+	
+	letter-spacing:2px;
+	font-size:16px;
+	*/
+.dropbtn {
+  background-color:#FDD93D;
+	font-family: "Arial Black", Gadget, sans-serif;
+	display: inline-block;
+	padding: 7px 15px;
+	border-radius: 5px;
+	letter-spacing:2px;
+	font-size:16px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: .8%;
+  margin-top: .4%;
+  float: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #D7C122;color:white;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #D7C122;
+  color: gray;
+}
+
+
+#name1{
+	color:#FDD93D;
+	cursor: default;
+	font-variant:small-caps;
+	font-family: "Arial Black", Gadget, sans-serif;
+	display: inline-block;
+	padding: 7px 15px;
+	border-radius: 5px;
+	letter-spacing:2px;
+	font-size:16px;
+	float:left;
+}
+#logoutbutton1{
+	float: right;
+	margin-right:1%;
+	color:gray;
+	margin-top:.5%;
+}
+#logoutbutton1:hover{
+	color:black;
+	background-color:white;
+	box-shadow: 2px 3px #F00;
+}
+#tdFooter{
+	color:white;
+	padding-left:10px;
+}

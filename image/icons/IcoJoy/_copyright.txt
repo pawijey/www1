@@ -1,0 +1,6 @@
+[General]
+
+Title=Web Development Icons
+Author=IcoJoy.com
+URL=http://www.icojoy.com/
+License=License Free

@@ -1,0 +1,7 @@
+[General]
+
+Title=Tango Icons
+Author=Tango Project
+URL=http://tango.freedesktop.org/
+URL2=http://tango.freedesktop.org/Tango_Desktop_Project
+License=Public Domain

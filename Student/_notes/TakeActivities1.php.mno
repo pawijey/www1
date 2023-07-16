@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_u" value="name:id;datatype:int,name:username;datatype:string,name:password;datatype:string,name:fn;datatype:string,name:ln;datatype:string,name:mi;datatype:string,name:contact;datatype:string,name:email;datatype:string,name:grade;datatype:string,name:adviser;datatype:string,name:teacher;datatype:string,name:picture;datatype:string,name:status;datatype:string,name:UserType;datatype:int,name:sy;datatype:string,name:dateEncoded;datatype:string,name:section;datatype:string" />
+	<infoitem key="UD_act" value="name:actid;datatype:int,name:actno;datatype:string,name:actname;datatype:string,name:DateIn;datatype:string,name:DateOut;datatype:string,name:username;datatype:string,name:teacher;datatype:string,name:sy;datatype:string,name:lesson;datatype:string" />
+	<infoitem key="UD_act1" value="name:id;datatype:int,name:actid;datatype:string,name:actno;datatype:string,name:username;datatype:string,name:DateIn;datatype:string,name:DateOut;datatype:string,name:teacher;datatype:string,name:subfile;datatype:string" />
+	<infoitem key="UD_act2" value="name:id;datatype:int,name:actid;datatype:string,name:actno;datatype:string,name:username;datatype:string,name:DateIn;datatype:string,name:DateOut;datatype:string,name:teacher;datatype:string,name:subfile;datatype:string" />
+	<infoitem key="UD_ans" value="name:id;datatype:int,name:username;datatype:string,name:actid;datatype:string,name:actno;datatype:string,name:DateIn;datatype:string,name:DateOut;datatype:string,name:teacher;datatype:string,name:upfile;datatype:string,name:score;datatype:string,name:total;datatype:int" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:username;datatype:string,name:actid;datatype:string,name:actno;datatype:string,name:DateIn;datatype:string,name:DateOut;datatype:string,name:teacher;datatype:string,name:upfile;datatype:string,name:score;datatype:string" />
+	<infoitem key="UD_score" value="name:id;datatype:int,name:username;datatype:string,name:actid;datatype:string,name:actno;datatype:string,name:DateIn;datatype:string,name:teacher;datatype:string,name:score;datatype:string" />
+</info>

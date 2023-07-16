@@ -1,0 +1,6 @@
+[General]
+
+Title=Freeiconsweb Business Icons
+Author=Freeiconsweb.com
+URL=http://www.freeiconsweb.com
+License=Attribution Required for Commercial Use
